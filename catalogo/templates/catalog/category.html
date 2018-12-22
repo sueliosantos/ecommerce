@@ -1,12 +1,12 @@
 {% extends "base.html"%}
 
 {% block title %}
-Listagem de produtos | {{ block.super }}
+    {{ current_category }} | {{ block.super }}
 {% endblock %}
 
 {% block container %}
 <div class="page-header">
-    <h1>Produtos</h1>
+    <h1> {{ current_category }}</h1>
 </div>
 <div class="row">
     {% for product in product_list %}
@@ -19,8 +19,8 @@ Listagem de produtos | {{ block.super }}
                 <h3> {{ product }}</h3>
                 {{ product.description|linebreaks }}
 
-                <p><a href="{{ product.get_absolute_url }}" class="btn btn-success" role="button">Button</a>
-                        <a href="#" class="btn btn-default"role="button">Button</a></p>
+                <p><a href="{{ product.get_absolute_url}}" class="btn btn-success" role="button">Button
+                </a> <a href="#" class="btn btn-default" role="button">Button</a></p>
             </div>
         </div>
     </div>

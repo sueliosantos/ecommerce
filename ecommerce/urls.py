@@ -22,7 +22,6 @@ from django.conf.urls import url, include
 urlpatterns = [
     path('', index, name='index'),
     path('contato/', views.contact, name='contato'),
-    path('produto/', views.product, name='produto'),
-    url(r'^produtos/', include('catalogo.urls', namespace='catalog')),
+    url(r'^catalogo/', include('catalogo.urls', namespace='catalog')),
     path('admin/', admin.site.urls),
 ]
