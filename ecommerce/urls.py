@@ -9,7 +9,7 @@ urlpatterns = [
     path('contato/', views.contact, name='contato'),
     url(r'^entrar/$', auth_views.LoginView.as_view(template_name='login.html'), name='login'),
     url(r'^sair/$', auth_views.LogoutView.as_view(template_name='index.html'), name='logout'),
-    url(r'^registro/$', views.register, name='register'),
     url(r'^catalogo/', include('catalogo.urls', namespace='catalog')),
+    url(r'^conta/', include('accounts.urls', namespace='accounts')),
     path('admin/', admin.site.urls),
 ]
