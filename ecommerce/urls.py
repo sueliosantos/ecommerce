@@ -11,5 +11,6 @@ urlpatterns = [
     url(r'^sair/$', auth_views.LogoutView.as_view(template_name='index.html'), name='logout'),
     url(r'^catalogo/', include('catalogo.urls', namespace='catalog')),
     url(r'^conta/', include('accounts.urls', namespace='accounts')),
+    url(r'^compras/', include('compras.urls', namespace='compras')),
     path('admin/', admin.site.urls),
 ]
