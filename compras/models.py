@@ -21,6 +21,7 @@ class CartItemManager(models.Manager):
 
 
 class CartItem(models.Model):
+
     cart_key = models.CharField(
         'Chave do Carrinho', max_length=40, db_index=True
     )
@@ -45,15 +46,14 @@ class OrderManager(models.Manager):
         order = self.create(user=user)
         for cart_item in cart_items:
             order_item = OrderItem.objects.create(
-                order = order, quantity = cart_item.quantity, produtct=cart_item.product,
-                price = cart_item.price
+                order=order, quantity=cart_item.quantity, product=cart_item.product,
+                price=cart_item.price
             )
         return order
 
 
-
-
 class Order(models.Model):
+
     STATUS_CHOICES = (
         (0, 'Aguardando Pagamento'),
         (1, 'Concluída'),
@@ -71,7 +71,8 @@ class Order(models.Model):
         'Situação', choices=STATUS_CHOICES, default=0, blank=True
     )
     payment_option = models.CharField(
-        'Opção de Pagamento', choices=PAYMENT_OPTION_CHOICES, max_length=20, default='deposit'
+        'Opção de Pagamento', choices=PAYMENT_OPTION_CHOICES, max_length=20,
+        default='deposit'
     )
 
     created = models.DateTimeField('Criado em', auto_now_add=True)

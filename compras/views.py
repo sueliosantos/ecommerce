@@ -83,3 +83,4 @@ class CheckoutView(LoginRequiredMixin, TemplateView):
 
 create_cartitem = CreateCartItemView.as_view()
 cart_item = CartItemView.as_view()
+checkout = CheckoutView.as_view()

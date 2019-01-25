@@ -2,68 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="548271a1-c29a-4552-83bd-ccafa3736bbb" name="Default Changelist" comment="teste">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/sueli.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compras/templates/checkout/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compras/middleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compras/templates/checkout/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compras/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/compras/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/compras/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/compras/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compras/templates/checkout/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/compras/templates/checkout/cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/compras/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/compras/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/compras/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/compras/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-2.1.4.dist-info/DESCRIPTION.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-2.1.4.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-2.1.4.dist-info/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-2.1.4.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-2.1.4.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-2.1.4.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-2.1.4.dist-info/entry_points.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-2.1.4.dist-info/metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-2.1.4.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/options.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/core/servers/basehttp.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/core/servers/basehttp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/db/backends/mysql/operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/db/backends/mysql/operations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/db/backends/oracle/operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/db/backends/oracle/operations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/db/backends/sqlite3/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/db/backends/sqlite3/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/db/backends/sqlite3/schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/db/backends/sqlite3/schema.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/views/defaults.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/views/defaults.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz-2018.7.dist-info/DESCRIPTION.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz-2018.7.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz-2018.7.dist-info/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz-2018.7.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz-2018.7.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz-2018.7.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz-2018.7.dist-info/metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz-2018.7.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz-2018.7.dist-info/zip-safe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Africa/Casablanca" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Africa/Casablanca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Africa/El_Aaiun" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Africa/El_Aaiun" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Africa/Sao_Tome" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Africa/Sao_Tome" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Metlakatla" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Metlakatla" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Hong_Kong" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Hong_Kong" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Qyzylorda" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Qyzylorda" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Tehran" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Tehran" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Hongkong" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Hongkong" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Iran" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Iran" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Kwajalein" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Kwajalein" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Chuuk" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Chuuk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Guam" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Guam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Kosrae" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Kosrae" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Kwajalein" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Kwajalein" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Majuro" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Majuro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Nauru" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Nauru" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Palau" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Palau" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Pohnpei" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Pohnpei" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Ponape" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Ponape" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Saipan" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Saipan" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Truk" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Truk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Yap" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Yap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/leapseconds" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/leapseconds" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/tzdata.zi" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/tzdata.zi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/zone.tab" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/zone.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/zone1970.tab" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/zone1970.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/django-admin.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/django-admin.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/compras/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="1820">
+              <caret line="92" column="90" selection-start-line="92" selection-start-column="90" selection-end-line="92" selection-end-column="90" />
               <folding>
                 <element signature="e#16#44#0" expanded="true" />
               </folding>
@@ -91,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/compras/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="80">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="19" />
               <folding>
                 <element signature="e#16#48#0" expanded="true" />
               </folding>
@@ -101,13 +50,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/compras/views.py">
+        <entry file="file://$PROJECT_DIR$/compras/templates/checkout/checkout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            <state relative-caret-position="60">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compras/templates/checkout/cart.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="65" column="49" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="49" />
               <folding>
-                <element signature="e#16#72#0" expanded="true" />
+                <element signature="n#style#0;n#th#3;n#thead#0;n#table#0;n#form#0;n#div#0;n#div#1;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compras/middleware.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ecommerce/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="59">
+              <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -124,6 +100,7 @@
       <find>url</find>
       <find>viw</find>
       <find>base</find>
+      <find>cart.html</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -135,8 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/core/templates/index.html" />
-        <option value="$PROJECT_DIR$/core/templates/product.html" />
         <option value="$PROJECT_DIR$/core/templates/product_list.html" />
         <option value="$PROJECT_DIR$/core/templates/products.html" />
         <option value="$PROJECT_DIR$/core/tests/test_views.py" />
@@ -175,15 +150,19 @@
         <option value="$PROJECT_DIR$/checkout/models.py" />
         <option value="$PROJECT_DIR$/catalogo/templates/catalog/_product.html" />
         <option value="$PROJECT_DIR$/compras/__init__.py" />
-        <option value="$PROJECT_DIR$/ecommerce/settings.py" />
         <option value="$PROJECT_DIR$/ecommerce/urls.py" />
         <option value="$PROJECT_DIR$/catalogo/templates/catalog/product.html" />
         <option value="$PROJECT_DIR$/compras/temaplates/checkout/cart.html" />
-        <option value="$PROJECT_DIR$/compras/urls.py" />
         <option value="$PROJECT_DIR$/core/templates/base.html" />
         <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/compras/admin.py" />
         <option value="$PROJECT_DIR$/compras/models.py" />
         <option value="$PROJECT_DIR$/compras/views.py" />
+        <option value="$PROJECT_DIR$/compras/urls.py" />
+        <option value="$PROJECT_DIR$/compras/templates/checkout/cart.html" />
+        <option value="$PROJECT_DIR$/compras/middleware.py" />
+        <option value="$PROJECT_DIR$/ecommerce/settings.py" />
+        <option value="$PROJECT_DIR$/compras/templates/checkout/checkout.html" />
       </list>
     </option>
   </component>
@@ -201,7 +180,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,18 +201,26 @@
             <path>
               <item name="ecommerce" type="b2602c69:ProjectViewProjectNode" />
               <item name="ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="compras" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="checkout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ecommerce" type="462c0819:PsiDirectoryNode" />
               <item name="ecommerce" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$/Dropbox/PYTHON/PESSOAL/IntelliJ.Portuguese.Brazil.Dictionary-master/portuguese-brazil_technical-terms_without-accents.dic" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -311,56 +297,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.37037036" visible="true" weight="0.20867614" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.37037036" visible="true" weight="0.20867614" />
       <window_info id="Structure" order="1" sideWeight="0.6296296" side_tool="true" weight="0.31026787" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.3296131" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.43367347" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4827586" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29945552" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39863715" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32879046" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2123412" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.25952813" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32667875" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.73139745" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/accounts/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalogo/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalogo/context_processors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/accounts/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -409,13 +366,6 @@
             <element signature="e#0#35#0" expanded="true" />
             <marker date="1547415149962" expanded="true" signature="449:452" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/urls/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
         </state>
       </provider>
     </entry>
@@ -489,9 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/compras/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/compras/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -541,13 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalogo/templates/catalog/_product.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -584,29 +524,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="47" column="68" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ecommerce/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compras/templates/checkout/cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="40" column="18" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#th#3;n#thead#0;n#table#0;n#form#0;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -618,10 +541,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/compras/models.py">
+    <entry file="file://$PROJECT_DIR$/core/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compras/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+          <folding>
+            <element signature="e#16#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-282">
+          <caret line="47" column="44" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compras/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="67" column="6" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
+          <folding>
+            <element signature="e#16#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compras/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1820">
+          <caret line="92" column="90" selection-start-line="92" selection-start-column="90" selection-end-line="92" selection-end-column="90" />
           <folding>
             <element signature="e#16#44#0" expanded="true" />
           </folding>
@@ -630,21 +587,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/compras/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="80">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="19" />
           <folding>
             <element signature="e#16#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/compras/views.py">
+    <entry file="file://$PROJECT_DIR$/ecommerce/local_settings.py.example">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/urls/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        <state relative-caret-position="16">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compras/middleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compras/templates/checkout/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="65" column="49" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="49" />
           <folding>
-            <element signature="e#16#72#0" expanded="true" />
+            <element signature="n#style#0;n#th#3;n#thead#0;n#table#0;n#form#0;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compras/templates/checkout/checkout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
         </state>
       </provider>
     </entry>
